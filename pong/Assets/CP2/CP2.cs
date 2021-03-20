@@ -7,9 +7,9 @@ public class CP2 : MonoBehaviour
 
     private void Start()
     {
-        Sum(12,15 );
-        Prod(10, 20 );
-        Div(14, 10);
+        Debug.Log(Sum(12,15));
+        Debug.Log(Prod(10, 20));
+        Debug.Log(Div(14, 10));
         
       
     }
